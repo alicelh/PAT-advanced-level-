@@ -13,7 +13,6 @@ struct student{
 int now;
 int id[2010];
 char cc[4]={'A','C','M','E'};
-int ranks[2010][4];
 
 bool cmp(student a,student b){
 	return a.grade[now]>b.grade[now];
