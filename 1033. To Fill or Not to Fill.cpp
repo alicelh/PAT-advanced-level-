@@ -55,7 +55,7 @@ int main(){
 					printf("The maximum travel distance = %.2f",rtmp+rr);
 					return 0;
 				}
-				else//到所能到的距离中价格最小的那里充满油 
+				else//到所能到的距离中价格最小的那里
 					min=s[tmp+1].Pi;
 					next=tmp+1;
 					for(i=tmp+1;i<N&&s[i].Di<=s[tmp].Di+rr;i++){
