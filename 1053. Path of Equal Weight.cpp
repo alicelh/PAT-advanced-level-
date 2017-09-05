@@ -1,7 +1,11 @@
 #include<cstdio>
 #include<vector>
 #include<algorithm>
-#include<queue>
+#include<queue> 
+
+/*遇到排序题，可以先考虑是否可以做提前处理保证有序性，这道题要输出按权值从大到小排序，
+可以一开始就将每个节点的孩子按权值排序，这样可以保证最后顺序，不过做的时候没有想到，所以
+又排了一次序*/
 
 using namespace std;
 int N,M,weight,num;
